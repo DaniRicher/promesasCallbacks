@@ -1,5 +1,6 @@
-import { saludar } from "./js/componentes.js";
-import './styles.css'
+import { heroesCiclo, heroeIfAwait} from './js/await';
 
-const nombre='Daniel';
-saludar(nombre);
+heroesCiclo();
+
+
+heroeIfAwait('iron');
